@@ -54,8 +54,6 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ## 📊 Key Findings / Hallazgos Principales
 
-## 📊 Key Findings / Hallazgos Principales
-
 ### 1. 💰 Sales Overview / Panorama General de Ventas
 - **EN** · Total revenue of **$11.04M** across **122,002 transactions** (Jan 2022 – Jul 2023). 
   The large gap between mean ($90.51) and median ($16.81) reveals a market 
