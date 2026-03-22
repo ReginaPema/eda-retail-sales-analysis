@@ -61,6 +61,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 - **ES** · Ingresos totales de **$11.04M** en **122,002 transacciones** (ene 2022 – jul 2023). 
   La gran brecha entre la media ($90.51) y la mediana ($16.81) revela un mercado 
   dominado por transacciones mayoristas de alto valor y outliers.
+![Distribución de Ventas](images/01_distribucion_ventas.png)
 
 ---
 
@@ -71,6 +72,8 @@ comportamiento por segmento y correlaciones entre variables clave.
 - **ES** · Los 3 segmentos principales (Bleach, Liquid & Gel, Powder) concentran el **91.2% de las ventas**, 
   con Bleach representando el **68.7% ($7.6M)** por sí solo. Una sola marca — Cloralex — 
   genera **$5.39M (48.9%)** del ingreso total, creando un riesgo de dependencia significativo.
+![Ventas_por_Segmento](images/02_ventas_por_segmento.png)
+![Ventas_por_Marca](images/03_ventas_por_marca.png)
 
 ---
 
@@ -83,6 +86,9 @@ comportamiento por segmento y correlaciones entre variables clave.
   con picos en **jul 2022 ($702K)** y **ene 2023 ($715K)**. 
   No se detectó estacionalidad marcada, aunque se observa una leve tendencia al alza en Q2 de cada año. 
   Nota: los datos de jul 2023 son incompletos (solo hasta el día 17) y fueron excluidos del análisis de tendencias.
+![Tendencia_Temporal](images/04_tendencia_temporal.png)
+![Ventas_Trimestrales](images/05_ventas_trimestre.png)
+![Tendencia_por_Segmento](images/06_tendencia_por_segmento.png)
 
 ---
 
@@ -95,6 +101,7 @@ comportamiento por segmento y correlaciones entre variables clave.
   frente a $39–$71 en otras áreas. De forma crítica, el Área 2 tiene un número de transacciones 
   similar a México (~18K vs ~21K) pero genera **4.6x menos ingresos** — lo que sugiere 
   una diferencia estructural en el tamaño de compra o mezcla de producto, no en volumen de clientes.
+![Distribución_Geográfica](images/09_distribucion_geografica.png)
 
 ---
 
@@ -105,6 +112,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 - **ES** · **14,241 transacciones (11.67%)** fueron identificadas como outliers, con una venta máxima de $12,236.76. 
   La mayoría de los outliers de alto valor provienen del segmento Bleach y la región México, 
   consistente con el patrón de compra mayorista identificado en el análisis de distribución.
+![Outliers_y_Anomalías](images/10_outliers.png)
 
 ---
 
@@ -117,6 +125,8 @@ comportamiento por segmento y correlaciones entre variables clave.
   Los gráficos de dispersión confirman un comportamiento elástico clásico: los volúmenes altos 
   de unidades (>100 uds) solo ocurren a precios unitarios muy bajos (<$50), indicando una 
   dinámica de mercado sensible al precio y orientada al volumen — típica de productos de limpieza tipo commodity.
+![Matriz_de_Correlación](images/07_matriz_correlacion.png)
+![Scatter Plots](images/08_scatter_plots.png)
 
 ---
 
