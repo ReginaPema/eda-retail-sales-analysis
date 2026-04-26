@@ -1,6 +1,6 @@
 # eda-retail-sales-analysis
 
-# 📊 EDA: Retail Sales Analysis
+# <img src="https://img.icons8.com/?size=50&id=80444&format=png&color=000000" alt="Gráfico" align="center"/> Exploratory Data Analysis (EDA) of Retail Sales
 ### Análisis Exploratorio de Datos de Ventas Retail
 
 > **EN** · Exploratory Data Analysis of retail sales data, uncovering 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Overview / Descripción
+## <img src="https://img.icons8.com/?size=40&id=Ihw7rsNxtanQ&format=png&color=000000" align="center"/> Overview / Descripción
 
 **EN** · This project performs a full EDA on a consolidated retail sales 
 dataset, analyzing sales distribution, time trends, segment behavior, 
@@ -22,7 +22,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-## 🛠️ Tools / Herramientas
+## <img src="https://img.icons8.com/?size=40&id=80431&format=png&color=000000" align="center"/> Tools / Herramientas
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -32,7 +32,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-## 🔍 Analysis Sections / Secciones del Análisis
+## <img src="https://img.icons8.com/?size=40&id=7y0hBJ3Hqpnu&format=png&color=000000" align="center"/> Analysis Sections / Secciones del Análisis
 
 ### 1. Sales Distribution / Distribución de Ventas
 - Histograms and boxplots by category, brand, and segment
@@ -52,9 +52,9 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-## 📊 Key Findings / Hallazgos Principales
+## <img src="https://img.icons8.com/?size=40&id=80351&format=png&color=000000" align="center"/> Key Findings / Hallazgos Principales
 
-### 1. 💰 Sales Overview / Panorama General de Ventas
+### 1. <img src="https://img.icons8.com/?size=36&id=80464&format=png&color=000000" align="center"/> Sales Overview / Panorama General de Ventas
 - **EN** · Total revenue of **$11.04M** across **122,002 transactions** (Jan 2022 – Jul 2023). 
   The large gap between mean ($90.51) and median ($16.81) reveals a market 
   heavily skewed by high-value wholesale transactions and outliers.
@@ -65,7 +65,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-### 2. 🎯 Market Concentration Risk / Riesgo de Concentración
+### 2. <img src="https://img.icons8.com/?size=36&id=80848&format=png&color=000000" align="center"/> Market Concentration Risk / Riesgo de Concentración
 - **EN** · The top 3 segments (Bleach, Liquid & Gel, Powder) account for **91.2% of total sales**, 
   with Bleach alone representing **68.7% ($7.6M)**. A single brand — Cloralex — 
   drives **$5.39M (48.9%)** of total revenue, creating significant dependency risk.
@@ -77,7 +77,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-### 3. 📅 Time Trends / Tendencias Temporales
+### 3. <img src="https://img.icons8.com/?size=36&id=xOiIkQtdbcaI&format=png&color=000000" align="center"/> Time Trends / Tendencias Temporales
 - **EN** · Sales remained relatively stable throughout the period (~$500K–$715K/month), 
   with peak months in **Jul 2022 ($702K)** and **Jan 2023 ($715K)**. 
   No strong seasonality was detected, though a mild upward trend appears in Q2 of each year. 
@@ -92,7 +92,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-### 4. 🗺️ Geographic Anomaly / Anomalía Geográfica
+### 4. <img src="https://img.icons8.com/?size=36&id=QaHIbDj74XXB&format=png&color=000000" align="center"/> Geographic Anomaly / Anomalía Geográfica
 - **EN** · Mexico region dominates with **50% of total revenue ($5.5M)** and an average ticket of **$263.05**, 
   compared to $39–$71 in other areas. Critically, Area 2 has a similar transaction count to Mexico 
   (~18K vs ~21K) but generates **4.6x less revenue** — suggesting a structural difference 
@@ -105,7 +105,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-### 5. ⚠️ Outliers & Anomalies / Outliers y Anomalías
+### 5. <img src="https://img.icons8.com/?size=36&id=81720&format=png&color=000000" align="center"/> Outliers & Anomalies / Outliers y Anomalías
 - **EN** · **14,241 transactions (11.67%)** were identified as outliers, with a maximum sale of $12,236.76. 
   The majority of high-value outliers originate from the Bleach segment and the Mexico region, 
   consistent with the wholesale purchasing pattern identified in the distribution analysis.
@@ -116,21 +116,21 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-### 6. 📈 Price Elasticity / Elasticidad de Precio
+### 6. <img src="https://img.icons8.com/?size=36&id=21MsS7FvYfOm&format=png&color=000000" align="center"/> Price Elasticity / Elasticidad de Precio
 - **EN** · Sales value and units sold show a **strong positive correlation (0.92)**. 
   Scatter plots confirm classic elastic behavior: high unit volumes (>100 units) 
   only occur at very low unit prices (<$50), indicating a price-sensitive, 
-  volume-driven market dynamic — typical of commodity cleaning products.
+  volume-driven market dynamic; typical of commodity cleaning products.
 - **ES** · El valor de venta y las unidades vendidas muestran una **correlación positiva fuerte (0.92)**. 
   Los gráficos de dispersión confirman un comportamiento elástico clásico: los volúmenes altos 
   de unidades (>100 uds) solo ocurren a precios unitarios muy bajos (<$50), indicando una 
-  dinámica de mercado sensible al precio y orientada al volumen — típica de productos de limpieza tipo commodity.
+  dinámica de mercado sensible al precio y orientada al volumen; típica de productos de limpieza tipo commodity.
 ![Matriz_de_Correlación](images/07_matriz_correlacion.png)
 ![Scatter Plots](images/08_scatter_plots.png)
 
 ---
 
-### 7. 💡 Strategic Recommendations / Recomendaciones Estratégicas
+### 7. <img src="https://img.icons8.com/?size=36&id=81083&format=png&color=000000" align="center"/> Strategic Recommendations / Recomendaciones Estratégicas
 - **Diversification** · Launch targeted campaigns for Powder and Liquid & Gel segments 
   to reduce over-reliance on Cloralex/Bleach. / 
   Impulsar campañas para Powder y Liquid & Gel para reducir la dependencia de Cloralex/Bleach.
@@ -143,7 +143,7 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ---
 
-## 📁 Repository Structure / Estructura
+## <img src="https://img.icons8.com/?size=40&id=PhymLYNNjf3I&format=png&color=000000" align="center"/> Repository Structure / Estructura
 
     eda-retail-sales-analysis/
     ├── notebook/
@@ -155,4 +155,5 @@ comportamiento por segmento y correlaciones entre variables clave.
 ---
 
 *Project developed as part of the Data Scientist Certificate · 
-Proyecto desarrollado como parte del certificado Científico de Datos — EBAC (2025)*
+Proyecto desarrollado como parte del certificado Científico de Datos — EBAC (2025)* <img src="https://img.icons8.com/?size=35&id=FgMs84V9yrMV&format=png&color=000000" align="center"/>
+
