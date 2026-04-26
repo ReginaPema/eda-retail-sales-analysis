@@ -145,24 +145,12 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ## 📁 Repository Structure / Estructura
 
-\`\`\`
 eda-retail-sales-analysis/
 ├── notebook/
 │   └── eda_retail_sales.ipynb
-├── images/
-│   ├── 01_distribucion_ventas.png
-│   ├── 02_ventas_por_segmento.png
-│   ├── 03_ventas_por_marca.png
-│   ├── 04_tendencia_temporal.png
-│   ├── 05_ventas_trimestre.png
-│   ├── 06_tendencia_por_segmento.png
-│   ├── 07_matriz_correlacion.png
-│   ├── 08_scatter_plots.png
-│   ├── 09_distribucion_geografica.png
-│   └── 10_outliers.png
+├── images/              # Gráficos generados en el análisis
 ├── README.md
 └── requirements.txt
-\`\`\`
 
 ---
 
