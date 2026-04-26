@@ -145,12 +145,12 @@ comportamiento por segmento y correlaciones entre variables clave.
 
 ## 📁 Repository Structure / Estructura
 
-eda-retail-sales-analysis/
-├── notebook/
-│   └── eda_retail_sales.ipynb
-├── images/              # Gráficos generados en el análisis
-├── README.md
-└── requirements.txt
+    eda-retail-sales-analysis/
+    ├── notebook/
+        └── eda_retail_sales.ipynb
+    ├── images/              # Gráficos generados en el análisis
+    ├── README.md
+    └── requirements.txt     # Python libraries
 
 ---
 
