@@ -104,9 +104,9 @@
 
 ## <img src="https://img.icons8.com/?size=40&id=PhymLYNNjf3I&format=png&color=000000" align="center"/> Repository Structure / Estructura
 
-    eda-sales-analysis/
+    eda-retail-sales-analysis/
     ├── notebook/
-    │   └── eda_sales_analysis.ipynb
+    │   └── Pipeline_EDA_Retail.ipynb
     ├── images/                         # 10 exported visualizations
     ├── README.md
     └── requirements.txt                # Python libraries
