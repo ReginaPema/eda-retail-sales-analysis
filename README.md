@@ -13,7 +13,7 @@
 
 **ES** · Este proyecto continúa el [pipeline ETL](https://github.com/ReginaPema/etl-sales-data-cleaning) de datos de venta retail, tomando el dataset consolidado (122,002 registros de venta semanal, 2022-2023) y aplicando análisis exploratorio para responder preguntas de negocio concretas: qué impulsa la concentración de ventas, cómo se mueve la demanda a lo largo del año, qué variables realmente correlacionan con el ingreso, y de dónde vienen los outliers estadísticos.
 
-## Methodological Note / Nota Metodológica
+## <img src="https://img.icons8.com/?size=40&id=shBqcY2jqNl3&format=png&color=000000" align="center"/> Methodological Note / Nota Metodológica
 
 **EN** · The dataset includes, alongside the six regional sales areas, a **national total** row that is the aggregated sum of those six areas. This entire analysis works exclusively with the six regional areas (101,012 of the 122,002 total rows), so that no statistic mixes an individual observation with an aggregate.
 
