@@ -1,4 +1,4 @@
-# <img src="https://img.icons8.com/?size=60&id=80444&format=png&color=000000" align="center"/> Exploratory Data Analysis: Retail Sales Patterns
+# <img src="https://img.icons8.com/?size=60&id=80444&format=png&color=000000" align="center"/> Exploratory Data Analysis (EDA): Retail Sales Patterns
 ### Análisis Exploratorio de Datos: Patrones de Venta
 
 > **EN** · Exploratory data analysis of retail sales data, uncovering concentration, seasonality, correlation, and geographic patterns through ten custom visualizations built on a shared design system.
@@ -39,7 +39,7 @@
 - **EN** · Total revenue of **$5.52M** across **101,012 transactions** (Jan 2022 - Jul 2023, area-level data only). The gap between mean ($54.66) and median ($14.06, close to 4x) reveals a market heavily skewed by high-value wholesale transactions.
 - **ES** · Ingresos totales de **$5.52M** en **101,012 transacciones** (ene 2022 - jul 2023, solo datos a nivel área). La brecha entre la media ($54.66) y la mediana ($14.06, casi 4x) revela un mercado con fuerte sesgo por transacciones mayoristas de alto valor.
 
-![Distribución de Ventas](images/01_distribucion_ventas.png)
+![Distribución de Ventas](plots/01_distribucion_ventas.png)
 
 ---
 
@@ -48,8 +48,8 @@
 - **EN** · The top 3 segments (Bleach, Liquid & Gel, Powder) account for **91.2% of total sales**, with Bleach alone representing **68.6% ($3.79M)**. A single brand, Cloralex, drives **$2.70M (48.8%)** of total revenue, more than double the second-place brand.
 - **ES** · Los 3 segmentos principales (Bleach, Liquid & Gel, Powder) concentran el **91.2% de las ventas**, con Bleach representando el **68.6% ($3.79M)** por sí solo. Una sola marca, Cloralex, genera **$2.70M (48.8%)** del ingreso total, más del doble que la segunda marca.
 
-![Ventas por Segmento](images/02_ventas_por_segmento.png)
-![Ventas por Marca](images/03_ventas_por_marca.png)
+![Ventas por Segmento](plots/02_ventas_por_segmento.png)
+![Ventas por Marca](plots/03_ventas_por_marca.png)
 
 ---
 
@@ -58,8 +58,8 @@
 - **EN** · Sales follow a consistent seasonal pattern across both years: **May** as the strongest month and **February** as the weakest, in both 2022 and 2023. July 2023 data is incomplete (through day 17 only) and was excluded from any month-over-month comparison.
 - **ES** · Las ventas siguen un patrón estacional consistente en ambos años: **mayo** como el mes más fuerte y **febrero** como el más débil, tanto en 2022 como en 2023. Los datos de julio 2023 están incompletos (solo hasta el día 17) y se excluyeron de cualquier comparación mes a mes.
 
-![Tendencia Temporal](images/04_tendencia_temporal.png)
-![Tendencia por Segmento](images/06_tendencia_por_segmento.png)
+![Tendencia Temporal](plots/04_tendencia_temporal.png)
+![Tendencia por Segmento](plots/06_tendencia_por_segmento.png)
 
 ---
 
@@ -68,8 +68,8 @@
 - **EN** · Sales value and units sold show a **strong positive correlation (0.91)**, while price shows no meaningful correlation with total revenue. Scatter plots confirm the pattern: unit volumes above 100 only occur at low unit prices, consistent with a volume-driven, price-sensitive market rather than one built around premium pricing.
 - **ES** · El valor de venta y las unidades vendidas muestran una **correlación positiva fuerte (0.91)**, mientras que el precio no muestra correlación relevante con el ingreso total. Los gráficos de dispersión confirman el patrón: los volúmenes por encima de 100 unidades solo ocurren a precios bajos, consistente con un mercado impulsado por volumen y sensible al precio, no uno construido sobre precio premium.
 
-![Matriz de Correlación](images/07_matriz_correlacion.png)
-![Scatter Plots](images/08_scatter_plots.png)
+![Matriz de Correlación](plots/07_matriz_correlacion.png)
+![Scatter Plots](plots/08_scatter_plots.png)
 
 ---
 
@@ -78,7 +78,7 @@
 - **EN** · Performance across the six regional areas is reasonably balanced: Area 2 leads with 21.5% of sales, and average ticket size varies by 1.8x between the strongest and weakest areas (not the 6-7x gap a naive comparison against an unfiltered aggregate would suggest).
 - **ES** · El desempeño entre las seis áreas regionales es razonablemente parejo: Área 2 lidera con 21.5% de las ventas, y el ticket promedio varía 1.8x entre el área más fuerte y la más débil (no la brecha de 6-7x que sugeriría una comparación ingenua contra un agregado sin filtrar).
 
-![Distribución Geográfica](images/09_distribucion_geografica.png)
+![Distribución Geográfica](plots/09_distribucion_geografica.png)
 
 ---
 
@@ -87,7 +87,7 @@
 - **EN** · **10,022 transactions (9.92%)** were identified as statistical outliers via the IQR method, with values consistent across all six regions (no single area concentrates them disproportionately). Separately, **410 records** show near-zero sales value and are flagged for data quality review rather than treated as legitimate transactions.
 - **ES** · **10,022 transacciones (9.92%)** fueron identificadas como outliers estadísticos vía el método IQR, con valores consistentes entre las seis regiones (ninguna área los concentra de forma desproporcionada). Por separado, **410 registros** muestran valor de venta casi nulo y se marcan para revisión de calidad de datos, no como transacciones legítimas.
 
-![Outliers y Anomalías](images/10_outliers.png)
+![Outliers y Anomalías](plots/10_outliers.png)
 
 ---
 
@@ -107,7 +107,7 @@
     eda-retail-sales-analysis/
     ├── notebook/
     │   └── Pipeline_EDA_Retail.ipynb
-    ├── images/                         # 10 exported visualizations
+    ├── plots/                          # 10 exported visualizations
     ├── README.md
     └── requirements.txt                # Python libraries
 
